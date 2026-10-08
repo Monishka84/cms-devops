@@ -8,4 +8,4 @@ def test_submit_complaint():
 
     assert complaint["title"] == "Water Leakage"
     assert complaint["description"] == "There is water leakage in the college corridor."
-    assert complaint["status"] == "Pending"
+    assert complaint["status"] == "pending"
