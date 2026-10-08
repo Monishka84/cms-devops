@@ -6,6 +6,6 @@ def test_submit_complaint():
         "There is water leakage in the college corridor."
     )
 
-    assert complaint["title"] == "Road damage"
+    assert complaint["title"] == "Water leakage"
     assert complaint["description"] == "There is water leakage in the college corridor."
     assert complaint["status"] == "pending"
