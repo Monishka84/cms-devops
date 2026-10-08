@@ -1,4 +1,3 @@
-```yaml
 name: Complaint Management System CI/CD
 
 on:
@@ -26,4 +25,3 @@ jobs:
 
       - name: Run application
         run: python app.py
-```
