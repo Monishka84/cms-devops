@@ -2,7 +2,7 @@ def submit_complaint(title, description):
     return {
         "title": title,
         "description": description,
-        "status": "Pending"
+        "status": "pending"
     }
 
 print("Complaint Management System")
